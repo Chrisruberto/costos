@@ -1,0 +1,9 @@
+CREATE DATABASE receta ;
+
+CREATE TABLE producto (
+	orden int (20) not null,
+	ingrediente varchar (30) not null,
+	precio_u float (20) not null,
+	precio_a float (20) not null,
+	cantidad float (20) not null
+	 	);
